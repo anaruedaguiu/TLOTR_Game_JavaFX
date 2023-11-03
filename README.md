@@ -103,16 +103,16 @@ Y en el bando de las bestias se podrá distinguir entre: **Orcos** y **Trasgos**
   
   A continación, se muestra una explicación más detallada del funcionamiento de la interfaz gráfica incluyendo capturas de pantalla:<br>
   
-  -En primer lugar, se rellenan los campos necesarios para crear personajes, tanto héroes como bestias. Si no se rellena algún campo obligatorio, en este caso todos, 
-  aparecerá una ventana emergente avisando de que se debe rellenar.<br>
-  -Los valores de vida y armadura se pueden seleccionar usando las flechas de los spinners para aumentar o disminuir los valores de uno en uno, o se puede insertar directamente esribiendo un valor.
+  - En primer lugar, se rellenan los campos necesarios para crear personajes, tanto héroes como bestias. Si no se rellena algún campo obligatorio, en este caso todos, 
+  aparecerá una ventana emergente avisando de que se debe rellenar (_Primera y segunda imagen, contando de izquierda a derecha_).<br>
+  - Los valores de vida y armadura se pueden seleccionar usando las flechas de los spinners para aumentar o disminuir los valores de uno en uno, o se puede insertar directamente esribiendo un valor.
   En ambos casos existen límites para estos valores, para la vida el rango de valores va de 1 a 300 y para la armadura de 1 a 60.<br> 
-  -Una vez que se hayan completado los datos del personaje, se podrá _Añadir_ al ejército, por lo que pasará a estar en el recuadro inferior donde aparece el listado de personajes que conforma el 
-  Ejército de Héroes y el Ejército de Bestias.<br>
-  -Cuando el usuario/a considere que ambos ejércitos están listos para luchar, podrá hacer clic en el botón _¡Lucha!_ y comenzará a mostrarse el discrurrir de la batalla a través de la ventana de texto
+  - Una vez que se hayan completado los datos del personaje, se podrá _Añadir_ al ejército, por lo que pasará a estar en el recuadro inferior donde aparece el listado de personajes que conforma el 
+  Ejército de Héroes y el Ejército de Bestias (_Tercera imagen, contando de izquierda a derecha_).<br>
+  - Cuando el usuario/a considere que ambos ejércitos están listos para luchar, podrá hacer clic en el botón _¡Lucha!_ y comenzará a mostrarse el discrurrir de la batalla a través de la ventana de texto
   que aparece debajo, de manera similar a cómo se hizo en el Modo Consola. Durante la batalla, se han inhabilitado algunas funciones (por ejemplo, los botones de _Añadir_ o _Luchar_) hasta que esta termine
-  y haya un bando vencedor.<br>
-  -Finalmente, cuando la batalla finalice, aparecerá una ventana emergente con un mensaje de cuál ha sido el ejército vencedor. A partir de aquí, se podrá crear otra partida si se desea.
+  y haya un bando vencedor (_Cuarta imagen, contando de izquierda a derecha_).<br>
+  - Finalmente, cuando la batalla finalice, aparecerá una ventana emergente con un mensaje de cuál ha sido el ejército vencedor. A partir de aquí, se podrá crear otra partida si se desea (_Quinta imagen, contando de izquierda a derecha_).
 
   <h3 align="center">📷 Capturas de pantalla de la Interfaz Gráfica de Java FX</h3>
   <p align="center">(Haz clic en la imagen que desees ver a mayor tamaño)<p>
@@ -210,21 +210,22 @@ This version has been developed using __*Java FX*__.<br>
 
 Below is a more detailed explanation of the operation of the graphical interface, including screenshots:<br>
 
--First, you fill in the necessary fields to create characters, both heroes and beasts. If any mandatory field is left empty, in this case all of them,
-a pop-up window will appear, warning that the fields must be filled in.<br>
--The values for life and armor can be selected using the arrows in the spinners to increase or decrease the values one by one, or you can directly enter a value.
+- First, you fill in the necessary fields to create characters, both heroes and beasts. If any mandatory field is left empty, in this case all of them,
+a pop-up window will appear, warning that the fields must be filled in (_First and second image, counting from left to right_).<br>
+- The values for life and armor can be selected using the arrows in the spinners to increase or decrease the values one by one, or you can directly enter a value.
 In both cases, there are limits for these values, with a range of 1 to 300 for life and 1 to 60 for armor.<br>
--Once the character data has been completed, you can add it to the army, so it will appear in the lower box that lists the characters making up the
-Army of Heroes and the Army of Beasts.<br>
--When the user considers that both armies are ready to fight, they can click the fight button, and the course of the battle will begin to be displayed through the text window that appears below,
-similar to how it was done in Console Mode. During the battle, some functions have been disabled (e.g., the add or fight buttons) until it ends and there is a winning side.<br>
--Finally, when the battle ends, a pop-up window will appear with a message indicating which army has emerged as the winner. From this point, another game can be created if desired.
+- Once the character data has been completed, you can add it to the army, so it will appear in the lower box that lists the characters making up the
+Army of Heroes and the Army of Beasts (_Third image, counting from left to right_).<br>
+- When the user considers that both armies are ready to fight, they can click the fight button, and the course of the battle will begin to be displayed through the text window that appears below,
+similar to how it was done in Console Mode. During the battle, some functions have been disabled (e.g., the add or fight buttons) until it ends and there is a winning side
+(_Fourth image, counting from left to right_).<br>
+- Finally, when the battle ends, a pop-up window will appear with a message indicating which army has emerged as the winner. From this point, another game can be created if desired (_Fifth image, counting from left to right_).
 
 <h3 align="center">📷 Screenshots of the Java FX's Graphical Interface</h3>
 <p align="center">(Click on the image you want to view in a larger size)<p>
 <p align="center"> 
     <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX1.PNG" alt="Main view of the graphical interface" width="250px">
-    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX2.PNG" alt="View of the pop-up window with the message'Fill in mandatory fields'" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX2.PNG" alt="View of the pop-up window with the message 'Fill in mandatory fields'" width="250px">
     <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX3.PNG" alt="View of the lists of the Armies of Heroes and Beasts" width="250px">
     <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX4.PNG" alt="View of the text window where the course of the battle is narrated. Disabled buttons 
     are visible" width="250px">
