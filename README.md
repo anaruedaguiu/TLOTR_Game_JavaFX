@@ -25,9 +25,12 @@ The logic is the same, the only thing that changes between the two versions is t
 ## Tabla de contenidos 
 * [Descripción del juego](#descripción-del-juego)
 * [Modo Consola](#modo-consola)
-* [Modo Interfaz Gráfica](#modo-interfaz-grafica)
+* [Modo Interfaz Gráfica](#modo-interfaz-gráfica)
 
-## Descripción del juego 🎲
+## Descripción del juego
+
+<h3 align="center">· En este apartado se detalla la información de los requerimientos y características del juego 🎲</h3><br>
+
 La aplicación consiste en crear un juego basado en el famoso libro de fantasía de *El Señor De Los Anillos*.<br>
 Existirán dos tipos de personajes en el juego, es decir, dos bandos: **Héroes** & **Bestias**. 
 
@@ -77,16 +80,22 @@ Y en el bando de las bestias se podrá distinguir entre: **Orcos** y **Trasgos**
   En el momento en que un personaje llegue a un nivel de vida igual o inferior a cero se producirá su muerte por lo que se eliminará de su posición y se desplazarán todos sus compañeros en posiciones posteriores para cubrir la baja.
   De esa forma, alguno de los personajes inactivos podrá participar en la batalla en los siguientes turnos.
 
- ## Modo Consola 🛡️
+ ## Modo Consola
+
+ <h3 align="center">· En este apartado se resume lo que se espera de la versión por consola 🛡️</h3><br>
 
   El proyecto está planteado para elaborarse de dos formas. El primero es el **Modo Consola**, que constará de una ejecución más sencilla.
   El programa mostrará por consola el discurrir de la batalla de forma que podamos comprobar que su funcionamiento es correcto.<br>
   En este caso particular, se han incluido algunas preguntas para el usuario/a nada más arrancar el programa como: si quiere empezar una partida, a qué bando quiere pertenecer,
   qué personajes (de los que ya vienen creados) quiere que conforme el bando que ha seleccionado, o si quiere formar el bando contrario eligiendo los personajes o al azar.
   Después de responder esta serie de preguntas, comienza la batalla aplicando la lógica del juego descrita anteriormente hasta que finalmente haya un bando vencedor.<br>
-  Puedes encontrar el proyecto en el siguiente repositorio: 👉 _https://github.com/anaruedaguiu/TLOTR_Game_
+  
+  · PARA SABER MÁS:<br> 
+    Puedes encontrar el proyecto en el siguiente repositorio: 👉 _https://github.com/anaruedaguiu/TLOTR_Game_
 
- ## Modo Interfaz Gráfica 🧙
+ ## Modo Interfaz Gráfica
+
+ <h3 align="center">· En este apartado se detalla lo que se espera de la versión con interfaz gráfica 🧙</h3><br>
 
   El segundo planteamiento es el **Modo Interfaz Gráfica**, que presenta una ejecución más elaborada. En esta versión se permitirá de forma interactiva crear los ejércitos de héroes y bestias.
   Una vez creamos los ejércitos se los pondrá a luchar y el resultado se verá a través de una ventana de texto de forma similar a como se hace en la consola.<br>
@@ -105,14 +114,31 @@ Y en el bando de las bestias se podrá distinguir entre: **Orcos** y **Trasgos**
   y haya un bando vencedor.<br>
   -Finalmente, cuando la batalla finalice, aparecerá una ventana emergente con un mensaje de cuál ha sido el ejército vencedor. A partir de aquí, se podrá crear otra partida si se desea.
 
+  <h3 align="center">📷 Capturas de pantalla de la Interfaz Gráfica de Java FX</h3>
+  <p align="center">(Haz clic en la imagen que desees ver a mayor tamaño)<p>
+  <p align="center"> 
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX1.PNG" alt="Main view of the graphical interface" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX2.PNG" alt="View of the pop-up window with the message'Fill in mandatory fields'" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX3.PNG" alt="View of the lists of the Armies of Heroes and Beasts" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX4.PNG" alt="View of the text window where the course of the battle is narrated. Disabled buttons 
+    are visible" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX5.PNG" alt="View of the pop-up window with the message of the winning Army in the game"   
+    width="250px">
+  </p>
+
+  
+
 # English Version
 
 ## Table of contents
-* [Game's description](#game's-description)
-* [Console Mode](#cosole-mode)
+* [Game description](#game-description)
+* [Console Mode](#console-mode)
 * [Graphical User Interface Mode](#graphical-user-interface-mode)
 
-## Game's description 🎲
+## Game description
+
+<h3 align="center">· This section provides detailed information on the game's requirements and features 🎲</h3><br>
+
 The application aims to create a game based on the famous fantasy book *The Lord of the Rings*.<br>
 There will be two types of characters in the game, which means two sides: **Heroes** & **Beasts**.
 
@@ -161,16 +187,22 @@ And in the Beasts faction, you can distinguish between: **Orcs** and **Goblins**
   When a character's life reaches zero or below, they will die, and they will be removed from their position, with all their comrades behind them moving to cover the vacancy.
   In this way, some of the inactive characters may participate in the battle in the following turns.
 
-## Console Mode 🛡️
+## Console Mode
+
+<h3 align="center">· This section summarizes what is expected from the console version 🛡️</h3><br>
 
 The project is designed to be developed in two ways. The first one is the **Console Mode**, which will feature a simpler execution.
 The program will display the course of the battle through the console so that we can verify that its operation is correct.<br>
 In this particular case, some questions for the user are included right after starting the program, such as whether they want to start a game, 
 which side they want to belong to, which characters (from those already created) they want to form the selected side, or if they want to form the opposing side by choosing characters or at random.
 After answering this series of questions, the battle begins by applying the game logic described above until there is finally a winning side.<br>
-You can find the project in the following repository: 👉 _https://github.com/anaruedaguiu/TLOTR_Game_
 
-## Graphical User Interface Mode 🧙
+· TO LEARN MORE:<br>
+  You can find the project in the following repository: 👉 _https://github.com/anaruedaguiu/TLOTR_Game_
+
+## Graphical User Interface Mode
+
+<h3 align="center">· This section details what is expected from the graphical user interface version 🧙</h3><br>
 
 The second approach is the **Graphical User Interface (GUI) Mode**, which offers a more elaborate execution. In this version, it will be possible to interactively create the armies of heroes and beasts. 
 Once we create the armies, they will be set to battle, and the result will be displayed through a text window in a similar way to how it is done in the console.<br>
@@ -187,3 +219,15 @@ Army of Heroes and the Army of Beasts.<br>
 -When the user considers that both armies are ready to fight, they can click the fight button, and the course of the battle will begin to be displayed through the text window that appears below,
 similar to how it was done in Console Mode. During the battle, some functions have been disabled (e.g., the add or fight buttons) until it ends and there is a winning side.<br>
 -Finally, when the battle ends, a pop-up window will appear with a message indicating which army has emerged as the winner. From this point, another game can be created if desired.
+
+<h3 align="center">📷 Screenshots of the Java FX's Graphical Interface</h3>
+<p align="center">(Click on the image you want to view in a larger size)<p>
+<p align="center"> 
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX1.PNG" alt="Main view of the graphical interface" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX2.PNG" alt="View of the pop-up window with the message'Fill in mandatory fields'" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX3.PNG" alt="View of the lists of the Armies of Heroes and Beasts" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX4.PNG" alt="View of the text window where the course of the battle is narrated. Disabled buttons 
+    are visible" width="250px">
+    <img src="https://github.com/anaruedaguiu/TLOTR_Game_JavaFX/blob/main/src/main/resources/screenshot_javaFX5.PNG" alt="View of the pop-up window with the message of the winning Army in the game"   
+    width="250px">
+  </p>
